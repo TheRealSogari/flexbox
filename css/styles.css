@@ -95,8 +95,8 @@
     border: 1px solid #fff;
     background-color: #D6E9FE;
     height: 200px;
-    flex: 1;
-    border-radius: 30px 30px 0px 0px;
+    flex: auto;
+    border-radius: 240px 240px 0px 0px / 20% 20% 0px 0px;
 }
 
 .footer-one,
@@ -107,9 +107,9 @@
 }
 
 .footer-one {
-    border-radius: 0px 30px 0px 100px;
+    border-radius: 0px 240px 0px 100px /0px 20% 0px 100px;
 }
 
 .footer-three {
-    border-radius: 30px 0px 100px 0px;
+    border-radius: 240px 0px 100px 0px / 20% 0px 100px 0px;
 }
